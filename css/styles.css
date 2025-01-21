@@ -124,3 +124,9 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+.hero img{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
