@@ -126,6 +126,7 @@ nav a:hover {
 .contact p {
     font-size: 18px;
     margin-bottom: 40px;
+    color: white;
 }
 
 footer {
@@ -133,6 +134,10 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .hero img{
@@ -150,3 +155,6 @@ footer {
     border-radius: 10px; 
 }
 
+footer p{
+    color: white;
+}
