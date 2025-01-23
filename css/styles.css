@@ -126,14 +126,47 @@ footer {
 }
 
 
-div.scroll-container {
+div.f-container {
     background-color: #4c3c32;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
 }
 
-div.scroll-container img {
+div.f-container img {
     padding: 10px;
     width: 15%;
+}
+
+.polaroid-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 15px;
+}
+
+.polaroid-container2 {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 15px;
+}
+
+div.polaroid {
+    width: 15%;
+    background-color:#4c3c32;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin: 15px;
+
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+div.polaroid:hover{
+    border: 1px solid white;
 }
