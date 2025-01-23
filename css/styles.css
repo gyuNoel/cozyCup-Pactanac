@@ -52,22 +52,22 @@ nav a:hover {
 .hero {
     text-align: center;
     padding: 100px 0;
-    padding-bottom: 50px;
     background-image: url('hero-bg.jpg');
     background-size: cover;
-    color: white;
-    
-    
+    color: white; 
 }
 
-.hero h1 {
+.hero h1,h2 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color: #4c3c32;
 }
+
 
 .hero p {
     font-size: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    color: #4c3c32;
 }
 
 .cta-button {
@@ -89,6 +89,11 @@ nav a:hover {
     background-color: #fef9f1;
 }
 
+.menu h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
 .menu h2 {
     font-size: 30px;
     margin-bottom: 20px;
@@ -107,9 +112,11 @@ nav a:hover {
 
 .about h3{
     margin-bottom: 20px;
+    color: #4c3c32;
 }
 
 .about p {
+    color: #4c3c32;
     font-size: 18px;
     max-width: 800px;
     margin: 0 auto;
@@ -125,6 +132,7 @@ nav a:hover {
 .contact h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    color: #ede4d6
 }
 
 .contact p {
@@ -147,10 +155,6 @@ footer {
 .hero img{
     width: 70%;
     margin-bottom: 20px;
-}
-
-.hero h1,p{
-    color: #4c3c32;
 }
 
 .abtimg {
@@ -309,3 +313,53 @@ footer ul.icon-list {
     height:300px!important;
     border-radius: 20px;
   }
+
+div.f-container {
+    background-color: #4c3c32;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.f-container img {
+    padding: 10px;
+    width: 15%;
+    border-radius: 50px;
+}
+
+.polaroid-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 15px;
+}
+
+.polaroid-container2 {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 15px;
+}
+
+div.polaroid {
+    width: 15%;
+    background-color:#4c3c32;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin: 15px;
+    border-radius: 10px; 
+}
+
+div.polaroid p{
+    color: white;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+div.polaroid:hover{
+    border: 1px solid white;
+}
