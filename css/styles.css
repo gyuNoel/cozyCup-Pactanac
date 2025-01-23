@@ -129,7 +129,7 @@ nav a:hover {
 
 .contact p {
     font-size: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: white;
 }
 
@@ -145,7 +145,7 @@ footer {
 }
 
 .hero img{
-    width: 80%;
+    width: 70%;
     margin-bottom: 20px;
 }
 
@@ -263,3 +263,29 @@ footer ul.icon-list {
 .contact-form button:hover {
     background-color: #7e685b;
 }
+
+.visit{
+    margin-bottom: 20px;
+}
+
+.mapouter{
+    border-radius: 10px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .gmap_canvas {
+    overflow:hidden;
+    width:450px;
+    height:300px;
+    text-align:center;
+  }
+  
+  .gmap_iframe {
+    width:450px!important;
+    height:300px!important;
+    border-radius: 20px;
+  }
